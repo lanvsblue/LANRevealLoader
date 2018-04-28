@@ -1,6 +1,6 @@
 ##  LANRevealLoader
 
-![Reveal](/Users/lan/Desktop/repo/LANRevealLoader/img/Reveal.png)
+![Reveal](img/Reveal.png)
 LANRevealLoader用来在越狱环境下加载RevealServer。由于在Reveal2版本以后，Reveal移除了动态库（libReveal.dyilb），而改用了静态库（RevealServer.framework）。但是Mobile Substrate需要使用动态库才能正确得注入到目标应用中，这部分的原因自行脑补关于动态库与静态库的区别。
 
 在iOS11以前，还可以使用Cydia中的Reveal Loader加载RevealServer，但由于Cydia在iOS11中的表现导致Cydia中的Reveal Loader无法正常安装。
@@ -16,4 +16,4 @@ Loader与Server分开的好处显而易见，不同的Reveal版本只要替换�
 
 ## Install
 
-从RevealServer.framework/RevealServer获取RevealServer，并下载LANRevealLoader，解压后将LANRevealLoader.dylib、LANRevealLoader.plist、RevealServer放在已越狱iOS的/Library/MobileSubstrate/DynamicLibraries目录下。
+从RevealServer.framework/RevealServer获取RevealServer，并下载[LANRevealLoader](https://github.com/lanvsblue/LANRevealLoader/releases/download/0.1/LANRevealLoader.zip)，解压后将LANRevealLoader.dylib、LANRevealLoader.plist、RevealServer放在已越狱iOS的/Library/MobileSubstrate/DynamicLibraries目录下。
