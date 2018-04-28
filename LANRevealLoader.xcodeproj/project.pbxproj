@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F6F33402094B92100F2228C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6F333F2094B92100F2228C /* Foundation.framework */; };
+		3F6F33482094B92100F2228C /* LANRevealLoader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F33472094B92100F2228C /* LANRevealLoader.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F6F333C2094B92100F2228C /* LANRevealLoader.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = LANRevealLoader.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6F333F2094B92100F2228C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F6F33442094B92100F2228C /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		3F6F33462094B92100F2228C /* LANRevealLoader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LANRevealLoader-Prefix.pch"; sourceTree = "<group>"; };
+		3F6F33472094B92100F2228C /* LANRevealLoader.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LANRevealLoader.mm; sourceTree = "<group>"; };
+		3F6F334C2094B92100F2228C /* LANRevealLoader.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = LANRevealLoader.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/LANRevealLoader.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F6F33382094B92100F2228C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6F33402094B92100F2228C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F6F33322094B92100F2228C = {
+			isa = PBXGroup;
+			children = (
+				3F6F33412094B92100F2228C /* LANRevealLoader */,
+				3F6F333E2094B92100F2228C /* Frameworks */,
+				3F6F333D2094B92100F2228C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F6F333D2094B92100F2228C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F6F333C2094B92100F2228C /* LANRevealLoader.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F6F333E2094B92100F2228C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F6F333F2094B92100F2228C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F6F33412094B92100F2228C /* LANRevealLoader */ = {
+			isa = PBXGroup;
+			children = (
+				3F6F33472094B92100F2228C /* LANRevealLoader.mm */,
+				3F6F33422094B92100F2228C /* Package */,
+				3F6F33452094B92100F2228C /* Supporting Files */,
+			);
+			path = LANRevealLoader;
+			sourceTree = "<group>";
+		};
+		3F6F33422094B92100F2228C /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				3F6F33432094B92100F2228C /* DEBIAN */,
+				3F6F33492094B92100F2228C /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		3F6F33432094B92100F2228C /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				3F6F33442094B92100F2228C /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		3F6F33452094B92100F2228C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F6F33462094B92100F2228C /* LANRevealLoader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F6F33492094B92100F2228C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				3F6F334A2094B92100F2228C /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		3F6F334A2094B92100F2228C /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				3F6F334B2094B92100F2228C /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		3F6F334B2094B92100F2228C /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				3F6F334C2094B92100F2228C /* LANRevealLoader.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F6F33392094B92100F2228C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F6F333B2094B92100F2228C /* LANRevealLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6F334F2094B92100F2228C /* Build configuration list for PBXNativeTarget "LANRevealLoader" */;
+			buildPhases = (
+				3F6F33372094B92100F2228C /* Sources */,
+				3F6F33382094B92100F2228C /* Frameworks */,
+				3F6F33392094B92100F2228C /* Headers */,
+				3F6F333A2094B92100F2228C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LANRevealLoader;
+			productName = LANRevealLoader;
+			productReference = 3F6F333C2094B92100F2228C /* LANRevealLoader.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F6F33332094B92100F2228C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				TargetAttributes = {
+					3F6F333B2094B92100F2228C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F6F33362094B92100F2228C /* Build configuration list for PBXProject "LANRevealLoader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F6F33322094B92100F2228C;
+			productRefGroup = 3F6F333D2094B92100F2228C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F6F333B2094B92100F2228C /* LANRevealLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F6F333A2094B92100F2228C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F6F33372094B92100F2228C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6F33482094B92100F2228C /* LANRevealLoader.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F6F334D2094B92100F2228C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"LANRevealLoader\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F6F334E2094B92100F2228C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"LANRevealLoader\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		3F6F33502094B92100F2228C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MXJL78S842;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LANRevealLoader/LANRevealLoader-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F6F33512094B92100F2228C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MXJL78S842;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LANRevealLoader/LANRevealLoader-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F6F33362094B92100F2228C /* Build configuration list for PBXProject "LANRevealLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6F334D2094B92100F2228C /* Release */,
+				3F6F334E2094B92100F2228C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6F334F2094B92100F2228C /* Build configuration list for PBXNativeTarget "LANRevealLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6F33502094B92100F2228C /* Release */,
+				3F6F33512094B92100F2228C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F6F33332094B92100F2228C /* Project object */;
+}
