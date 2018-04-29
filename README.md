@@ -4,6 +4,7 @@
 LANRevealLoader用来在越狱环境下加载RevealServer。由于在Reveal2版本以后，Reveal移除了动态库（libReveal.dyilb），而改用了静态库（RevealServer.framework）。但是Mobile Substrate需要使用动态库才能正确得注入到目标应用中，这部分的原因自行脑补关于动态库与静态库的区别。
 
 在iOS11以前，还可以使用Cydia中的[Reveal Loader](https://github.com/heardrwt/RevealLoader)加载RevealServer，但由于Cydia在iOS11中的表现导致Cydia中的Reveal Loader无法正常安装。
+
 ![Cydia_Reveal_Loader](img/Cydia_Reveal_Loader.png)
 
 LANRevealLoader简化了Reveal Loader，并在iOS11中能够正常加载RevealServer，LANRevealLoader由三部分组成：
